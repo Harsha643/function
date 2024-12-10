@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        pre{
+            color:brown;
+            font-size: 16px;
+        }
+        img{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+ <pre>
+    1. How would you define a function 
+    that takes two numbers as parameters and returns their sum?
+
+
+   function  sumOfTwoNumbers(a,b){
+            return (a + b);
+        }
+        sumOfTwoNumbers(20,50)
+        console.log(`sum of two numbers :${ sumOfTwoNumbers(20,50)}`)
+ </pre>
+ <img src="Screenshot 2024-12-10 222740.png" alt="">
+
+ <pre>
+    
+2. If you define a function that accepts a string as a parameter,
+ how would you modify it to print the string in uppercase?
+
+function string(a){
+ var b=a.toUpperCase()
+ console.log(b)
+
+}
+string("harsha")
+ </pre>
+<img src="2.png" alt="">
+<pre>
+    3. In JavaScript, what happens if you pass an undefined 
+    value as an argument to a function that expects a parameter?
+
+   function para(meter)
+        {
+            console.log(meter)
+        }
+        para(undefined)
+
+        function meter(para)
+        {
+            console.log(para)
+            console.log(para +2)
+        }
+        meter()
+</pre>
+<img src="3.png" alt="">
+<pre>
+    
+4. Suppose you have a function that takes an array as a parameter. 
+How would you check inside the function if the array is empty?
+
+
+function array(array){
+
+          console.log(array)
+
+      }
+      array([])
+</pre>
+<img src="4.png" alt="">
+<pre>
+    5. write a function that takes two numbers as parameters 
+    and returns their difference.
+
+	
+ function twoNumber(a,b){
+ 
+            return `difference between two number: ${b-a}`;
+
+        }
+   twoNumber(20,30)
+   console.log( twoNumber(20,30))
+</pre>
+<img src="5.png" alt="">
+<pre>
+    6. Define a function that accepts a name and age as parameters,
+     and returns a string with a greeting like "Hello, [name]! You are [age] years old."
+
+
+    function details(name,age){
+            return `Hello ${name} ! my age is ${age} `
+        }
+        details("guru",22)
+       console.log(  details("guru",22))
+</pre>
+<img src="6.png" alt="">
+<pre>
+    7. Write a function that takes a number as a parameter and 
+    returns true if the number is a even number, otherwise false.
+
+    function number(a){
+    
+ return a%2==0
+      
+       }
+       number(19)
+ 
+       if(number(19)){
+            console.log("the number is a even number")
+       }else{
+        console.log("otherwise false")
+       }
+</pre>
+<img src="7.png" alt="">
+    <script>
+        // Q.1
+        function  sumOfTwoNumbers(a,b){
+            return (a + b);
+        }
+        sumOfTwoNumbers(20,50)
+        console.log(`sum of two numbers :${ sumOfTwoNumbers(20,50)}`)
+//////////////////////////////////////////////////////////////////////
+        // Q.2
+        function string(a){
+    var b=a.toUpperCase()
+    console.log(b)
+
+   }
+   string("harsha")
+// q.3/////////////////////////////////////////////////////////////////
+function para(meter)
+        {
+            console.log(meter)
+        }
+        para(undefined)
+
+        function meter(para)
+        {
+            console.log(para)
+            console.log(para +2)
+        }
+        meter()
+
+
+        // Q.4////////////////////////////////////////////////////
+        function array(array){
+
+console.log(array)
+
+}
+array([])
+
+        // Q.5/////////////////////////////////////////////////////////
+        	
+ function twoNumber(a,b){
+ 
+ return `difference between two number: ${b-a}`;
+
+}
+twoNumber(20,30)
+console.log( twoNumber(20,30))
+// Q.6//////////////////////////////////////////////////////////
+	
+ function details(name,age){
+    return `Hello ${name} ! myb age is ${age}`
+ }
+ details("guru ",22)
+ console.log( details("guru ",22))
+
+        
+        // Q.7
+     function number(a){
+    
+    return a%2==0
+         
+          }
+          number(20)
+    
+          if(number(20)){
+               console.log("the number is a even number")
+          }else{
+           console.log("otherwise false")
+          }
+          function number(b){
+    
+    return b%2==0
+         
+          }
+          number(19)
+    
+          if(number(19)){
+               console.log("the number is a even number")
+          }else{
+           console.log("otherwise false")
+          }
+    </script>
+</body>
+</html>
